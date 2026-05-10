@@ -28,14 +28,14 @@ python 01_gray_level_transformations/negative.py
 ## Structure
 
 ```text
-├── images/    # Input images used in programs
-├── .gitignore
-├── 01_gray_level_transformations.ipynb
-├── 02_histogram_processing.ipynb
-├── 03_spatial_filtering.ipynb       # coming soon
-├── 04_frequency_domain.ipynb        # coming soon
-├── README.md
-└── requirements.txt
+|-- images/    # Input images used in programs
+|-- .gitignore
+|-- 01_gray_level_transformations.ipynb
+|-- 02_histogram_processing.ipynb
+|-- 03_spatial_filtering.ipynb       # coming soon
+|-- 04_frequency_domain.ipynb        # coming soon
+|-- README.md
+|-- requirements.txt
 ```
 
 ## Topics
