@@ -2,7 +2,6 @@
 
 A structured collection of image processing concepts and Python implementations using OpenCV, NumPy, and Matplotlib.
 
-
 ## Usage
 
 ```bash
@@ -26,12 +25,11 @@ python 01_gray_level_transformations/negative.py
 
 > Make sure to place your input image at `images/img-1.png` or update the path in each script.
 
-
 ## Structure
 
 ```
 ├── images/    # Input images used in programs
-├── .gitignore 
+├── .gitignore
 ├── 01_gray_level_transformations.ipynb
 ├── 02_histogram_processing.ipynb    # coming soon
 ├── 03_spatial_filtering.ipynb       # coming soon
@@ -40,39 +38,47 @@ python 01_gray_level_transformations/negative.py
 └── requirements.txt
 ```
 
-
 ## Topics
 
 ### 1. Gray Level Transformations
 
 Point processing techniques that operate on individual pixel intensities.
 
-| Technique | Description |
-|---|---|
-| Image Negative | Inverts pixel intensities |
-| Log Transformation | Enhances dark regions |
+| Technique            | Description                              |
+| -------------------- | ---------------------------------------- |
+| Image Negative       | Inverts pixel intensities                |
+| Log Transformation   | Enhances dark regions                    |
 | Gamma Transformation | Brightness correction via power function |
-| Contrast Stretching | Expands intensity range to full scale |
-| Thresholding | Converts grayscale to binary |
-| Gray Level Clipping | Highlights specific intensity range |
-| Bit Plane Slicing | Extracts individual bit planes |
-
+| Contrast Stretching  | Expands intensity range to full scale    |
+| Thresholding         | Converts grayscale to binary             |
+| Gray Level Clipping  | Highlights specific intensity range      |
+| Bit Plane Slicing    | Extracts individual bit planes           |
 
 ### 2. Histogram Processing
-> *Coming soon*
-- Histogram Equalization
-- Histogram Matching
+
+Intensity distribution analysis techniques that enhance images by redistributing pixel frequencies using histogram transformations.
+
+| Technique                  | Description                                             |
+| -------------------------- | ------------------------------------------------------- |
+| Histogram of an Image      | Counts pixel frequency at each intensity level          |
+| Histogram Equalization     | Enhances contrast by flattening the histogram using CDF |
+| Histogram Specification    | Maps histogram to match a target distribution           |
+| Local Histogram Processing | Applies equalization per neighborhood window (CLAHE)    |
+| Histogram Statistics       | Computes mean, variance, skewness, kurtosis, entropy    |
 
 ### 3. Spatial Filtering
-> *Coming soon*
+
+> _Coming soon_
+
 - Mean Filter
 - Gaussian Filter
 - Median Filter
 - Sharpening Filters (Laplacian, Sobel)
 
 ### 4. Frequency Domain
-> *Coming soon*
+
+> _Coming soon_
+
 - Fourier Transform
 - Low-pass & High-pass Filters
 - Ideal, Butterworth, Gaussian Filters
-
